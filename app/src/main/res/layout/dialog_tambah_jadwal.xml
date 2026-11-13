@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Tambahan Input Hari (Menyelesaikan error R.id.etHari) -->
+    <EditText
+        android:id="@+id/etHari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hari (misal: Senin)" />
+
+    <EditText
+        android:id="@+id/etNamaMatkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Nama Mata Kuliah" />
+
+    <EditText
+        android:id="@+id/etJam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Jam (misal: 08:30 - 10:10)" />
+
+    <EditText
+        android:id="@+id/etRuang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Ruangan (misal: Ruang A301)" />
+
+    <EditText
+        android:id="@+id/etDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Nama Dosen" />
+
+</LinearLayout>
